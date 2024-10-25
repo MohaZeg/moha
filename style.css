@@ -79,10 +79,6 @@ html {
     margin-bottom: 70px;
 }
 
-h1:hover {
-    transform: scale(2.6);
-}
-
 .main {
     display: flex;
     align-items: start;
@@ -157,8 +153,13 @@ p {
 h1 {
     font-family: "Montserrat", sans-serif;
     color: white;
-    transition: transform cubic-bezier(0.18, 0.89, 0.32, 1.5) 0.5s;
-    animation: slide-right 1s;
+    opacity: 0.8;
+    transition: transform cubic-bezier(.18, 0.89, 0.32, 2) .5s;
+}
+
+h1:hover {
+    transform: scale(2.6);
+    opacity: 1;
 }
 
 h2 {

@@ -209,6 +209,8 @@ h2 {
     .image h1 {
         transform: scale(1.5);
         margin-bottom: 30px;
+                opacity: 1;
+
     }
 }
 
@@ -229,5 +231,7 @@ h2 {
     .image h1 {
         transform: scale(1);
         margin-bottom: 10px;
+                opacity: 1;
+
     }
 }

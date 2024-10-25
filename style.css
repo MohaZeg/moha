@@ -22,7 +22,7 @@ html {
     width: 100%;
     z-index: 1;
     border-bottom: solid #e3e0e0 1px;
-    height: auto;
+    height: 50px;
     padding: 10px;
 }
 
@@ -64,13 +64,23 @@ html {
 }
 
 .image {
-    display: flex;
-    height: 427px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("img/image.jpg");
-    justify-content: center;
-    align-items: center;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("img/photo1.JPG");
     background-size: cover;
-    background-position: top;
+    background-position: right 0% top 30%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.image h1 {
+    font-family: "Imperial Script", sans-serif;
+    transform: scale(2.5);
+    margin-bottom: 70px;
+}
+
+h1:hover {
+    transform: scale(2.6);
 }
 
 .main {
@@ -151,10 +161,6 @@ h1 {
     animation: slide-right 1s;
 }
 
-h1:hover {
-    transform: scale(1.1);
-}
-
 h2 {
     font-family: "Montserrat", sans-serif;
 }
@@ -196,11 +202,12 @@ h2 {
     .content {
         width: 100%;
     }
-    h1 {
-        font-size: x-large;
-    }
     .image {
         height: 300px;
+    }
+    .image h1 {
+        transform: scale(1.5);
+        margin-bottom: 30px;
     }
 }
 
@@ -217,5 +224,9 @@ h2 {
     }
     .image {
         height: 160px;
+    }
+    .image h1 {
+        transform: scale(1);
+        margin-bottom: 10px;
     }
 }

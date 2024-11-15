@@ -2,6 +2,25 @@
                 box-sizing: border-box;
             }
             
+            .videoContainer {
+                display: flex;
+                justify-content: start;
+                gap: 20px;
+                /* Espace entre les vidéos */
+            }
+            
+            video {
+                width: 500px;
+                /* Largeur de chaque vidéo */
+                height: 300px;
+                /* Hauteur de chaque vidéo */
+            }
+            
+            .desk {
+                display: block;
+                padding: 60px 0px 20px 0px;
+            }
+            
             html {
                 position: relative;
             }
@@ -71,6 +90,7 @@
                 display: flex;
                 align-items: end;
                 justify-content: center;
+                margin: 0px;
             }
             
             .image h1 {
